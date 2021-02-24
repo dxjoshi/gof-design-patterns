@@ -1,4 +1,9 @@
-package PACKAGE_NAME;
+public class MallardDuck implements IDuck {
+    public void quack() {
+        System.out.println("Mallard's quack!!");
+    }
 
-public class MallardDuck {
+    public void fly() {
+        System.out.println("Mallard soaring in the sky!!");
+    }
 }

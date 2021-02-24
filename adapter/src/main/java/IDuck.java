@@ -1,4 +1,5 @@
-package PACKAGE_NAME;
+public interface IDuck {
 
-public interface Duck {
+    void quack();
+    void fly();
 }
