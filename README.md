@@ -13,4 +13,16 @@ Java implementations of popular design pattern
 ### Observer Pattern:
 -- Defines one-to-many dependency between objects so that when one object changes state, all of its dependents are notified and updated automatically.  
 -- Strive for loosely coupled designs between objects that interact.  
--- Follows a Publisher-Subscriber model  
+-- Follows a IPublisher-Subscriber model  
+
+### Decorator Pattern:
+-- Attaches additional responsibilities to an object dynamically.  
+-- Decorator provides a flexible alternative to subclassing for extending functionality.  
+
+##SOLID Principles
+
+1. **Single Responsibility Principle:**
+2. **The Open-Closed Principle:**  
+   > Classes should be open for extension but closed for modification.  
+3.     
+    
