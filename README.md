@@ -19,7 +19,7 @@ Java implementations of popular design pattern
 -- Attaches additional responsibilities to an object dynamically.  
 -- Decorator provides a flexible alternative to subclassing for extending functionality.  
 
-##SOLID Principles:
+## SOLID Principles:
 
 1. **Single Responsibility Principle:**
 2. **The Open-Closed Principle:**  
