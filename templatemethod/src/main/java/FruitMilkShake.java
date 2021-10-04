@@ -1,27 +1,15 @@
-public abstract class FlavouredMilkShake {
+public class FruitMilkShake extends MilkShakeTemplate {
 
-    public void makeAwesomeShake() {
-        addMilk();
-        addBaseIngredients();
-        shakeIt();
-        if (needToppings()) {
-            addToppings();
-        }
+    public void addBaseIngredients() {
+        System.out.println("Adding fresh fruits");
     }
 
-    public abstract void addBaseIngredients();
-    public abstract void addToppings();
-
-    private void addMilk() {
-        System.out.println("Adding Milk");
+    public void addToppings() {
+        System.out.println("Adding toppings");
     }
 
-    private void shakeIt() {
-        System.out.println("Shaking it!!");
-    }
-
+    @Override
     public boolean needToppings() {
-        return true;
+        return false;
     }
-
 }

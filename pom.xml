@@ -13,6 +13,9 @@
         <module>strategy</module>
         <module>observer</module>
         <module>singleton</module>
+        <module>command</module>
+        <module>templatemethod</module>
+        <module>facade</module>
     </modules>
 
     <build>
