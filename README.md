@@ -1,5 +1,6 @@
 # GOF-design-patterns
-Java implementations of popular design pattern, as explained in the Head First book
+Java implementations of popular design pattern, as explained in the Head First book     
+[GoF Design Patterns in Java's core libraries!!](https://stackoverflow.com/questions/1673841/examples-of-gof-design-patterns-in-javas-core-libraries/2707195#2707195)
 
 ### Strategy Pattern:
 -- Defines a family of algorithms, encapsulates each one and makes them interchangeable.  
@@ -25,7 +26,10 @@ Java implementations of popular design pattern, as explained in the Head First b
 ### Factory Pattern:  
 --  Defines interface for creating an object, but lets subclasses define which class to instantiate.  
 --  It lets a class defer instantiation to subclasses.  
-  
+
+### Singleton Pattern:  
+-- The Singleton Pattern ensures a class has only one instance, and provides a global point of access to it.
+--   
 ## SOLID Principles:
 
 1. **Single Responsibility Principle:**

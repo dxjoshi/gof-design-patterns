@@ -12,6 +12,7 @@
     <modules>
         <module>strategy</module>
         <module>observer</module>
+        <module>singleton</module>
     </modules>
 
     <build>
