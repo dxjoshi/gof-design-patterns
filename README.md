@@ -46,9 +46,6 @@ Java implementations of popular design pattern, as explained in the Head First b
 -- Attaches additional responsibilities to an object dynamically.  
 -- Decorator provides a flexible alternative to subclassing for extending functionality.  
 
-### Iterator Pattern:  
---  Provides a way to access the elements of an aggregate object sequentially without exposing its underlying representation.
-
 ### Factory Pattern:  
 -- Defines interface for creating an object, but lets subclasses define which class to instantiate.  
 -- It lets a class defer instantiation to subclasses.  
@@ -72,6 +69,11 @@ Java implementations of popular design pattern, as explained in the Head First b
 ### Template Method Pattern:           
 -- It defines the skeleton of an algorithm in a method, deferring some steps to subclasses and lets subclasses redefine certain steps of an algorithm without changing the algorithm’s structure.   
 -- A hook is a method that is declared in the abstract class, but only given an empty or default implementation. This gives subclasses the ability to “hook into” the algorithm at various points, if they wish; a subclass is also free to ignore the hook.
+   
+### Iterator Pattern:
+-- It provides a way to access the elements of an aggregate object sequentially without exposing its underlying representation.     
+-- It allows traversal of the elements of an aggregate without exposing the underlying implementation.
+-- It also places the task of traversal on the iterator object, not on the aggregate, which simplifies the aggregate interface and implementation, and places the responsibility where it should be.      
    
 ## [SOLID Principles](https://www.baeldung.com/solid-principles):
 
@@ -111,4 +113,10 @@ For all classes C, and for all methods M attached to C, all objects to which M s
     
     
 ##  Used at Work?
-Template Method Pattern --- AbstractDataSourceN6Feed in yc-feedhandler implementation    
+Template Method Pattern --- AbstractDataSourceN6Feed in yc-feedhandler implementation  
+
+## Important Notes:
+- **Hollywood Principle vs Dependency Inversion Principle:**
+    - The Dependency Inversion Principle teaches us to avoid the use of concrete classes and instead work as much as possible with abstractions. The Hollywood Principle is a technique for building frameworks or components so that lower-level components can be hooked into the computation, but without creating dependencies between the lower-level components and the higher-level layers. So, they both have the goal of decoupling, but the Dependency Inversion Principle makes a much stronger and general statement about how to avoid dependencies in design.
+    - The Hollywood Principle gives us a technique for creating designs that allow low-level structures to interoperate while preventing other classes from becoming too dependent on them.  
+
