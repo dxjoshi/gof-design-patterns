@@ -75,6 +75,11 @@ Java implementations of popular design pattern, as explained in the Head First b
 -- It allows traversal of the elements of an aggregate without exposing the underlying implementation.
 -- It also places the task of traversal on the iterator object, not on the aggregate, which simplifies the aggregate interface and implementation, and places the responsibility where it should be.      
    
+### Composite Pattern:  
+-- The Composite Pattern allows you to compose objects into tree structures to represent part-whole hierarchies.    
+-- Composite lets clients treat individual objects and compositions of objects uniformly.   
+-- The Composite Pattern allows us to build structures of objects in the form of trees that contain both compositions of objects and individual objects as nodes. Using a composite structure, we can apply the same operations over both composites and individual objects. In other words, in most cases we can ignore the differences between compositions of objects and individual objects.
+   
 ## [SOLID Principles](https://www.baeldung.com/solid-principles):
 
 1. **Single Responsibility Principle:**

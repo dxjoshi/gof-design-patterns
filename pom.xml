@@ -16,6 +16,7 @@
         <module>command</module>
         <module>templatemethod</module>
         <module>facade</module>
+        <module>composite</module>
     </modules>
 
     <build>
