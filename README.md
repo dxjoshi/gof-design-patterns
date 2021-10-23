@@ -80,6 +80,11 @@ Java implementations of popular design pattern, as explained in the Head First b
 -- Composite lets clients treat individual objects and compositions of objects uniformly.   
 -- The Composite Pattern allows us to build structures of objects in the form of trees that contain both compositions of objects and individual objects as nodes. Using a composite structure, we can apply the same operations over both composites and individual objects. In other words, in most cases we can ignore the differences between compositions of objects and individual objects.
    
+### State Pattern:   
+-- The State Pattern allows an object to alter its behavior when its internal state changes. The object will appear to change its class.    
+-- The states are used by the Context to represent its internal state and behavior, so all requests to the states come from the Context. Clients don’t directly change the state of the Context. It is the Context’s job to oversee its state, and you don’t usually want a client changing the state of a Context without that Context’s knowledge.    
+
+
 ## [SOLID Principles](https://www.baeldung.com/solid-principles):
 
 1. **Single Responsibility Principle:**

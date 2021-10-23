@@ -17,6 +17,7 @@
         <module>templatemethod</module>
         <module>facade</module>
         <module>composite</module>
+        <module>state-pattern</module>
     </modules>
 
     <build>
