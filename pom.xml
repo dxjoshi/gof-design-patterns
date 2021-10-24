@@ -18,6 +18,7 @@
         <module>facade</module>
         <module>composite</module>
         <module>state-pattern</module>
+        <module>proxy</module>
     </modules>
 
     <build>

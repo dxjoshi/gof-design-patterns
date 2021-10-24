@@ -85,6 +85,14 @@ Java implementations of popular design pattern, as explained in the Head First b
 -- The states are used by the Context to represent its internal state and behavior, so all requests to the states come from the Context. Clients don’t directly change the state of the Context. It is the Context’s job to oversee its state, and you don’t usually want a client changing the state of a Context without that Context’s knowledge.    
 
 
+### Proxy Pattern:    
+-- Use the Proxy Pattern to create a representative object that controls access to another object, which may be remote, expensive to create, or in need of securing.    
+-- It provides a surrogate or placeholder for another object to control access to it.  A few forms are Remote Proxy, Virtual Proxy.  
+-- A remote proxy acts as a local representative to a remote object. A Remote Object is an object that lives in the heap of a different Java Virtual Machine (or more generally, a remote object that is running in a different address space). A Local representative is an object that you can call local methods on and have them forwarded on to the remote object.   
+-- Virtual Proxy acts as a representative for an object that may be expensive to create. It often defers the creation of the object until it is needed, it also acts as a surrogate for the object before and while it is being created. After that, the proxy delegates requests directly to the RealSubject.  
+
+
+
 ## [SOLID Principles](https://www.baeldung.com/solid-principles):
 
 1. **Single Responsibility Principle:**
