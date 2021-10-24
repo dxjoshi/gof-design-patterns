@@ -91,6 +91,9 @@ Java implementations of popular design pattern, as explained in the Head First b
 -- A remote proxy acts as a local representative to a remote object. A Remote Object is an object that lives in the heap of a different Java Virtual Machine (or more generally, a remote object that is running in a different address space). A Local representative is an object that you can call local methods on and have them forwarded on to the remote object.   
 -- Virtual Proxy acts as a representative for an object that may be expensive to create. It often defers the creation of the object until it is needed, it also acts as a surrogate for the object before and while it is being created. After that, the proxy delegates requests directly to the RealSubject.  
 
+### Compound Patterns:  
+-- A compound pattern combines two or more patterns into a solution that solves a recurring or general problem. 
+
 
 
 ## [SOLID Principles](https://www.baeldung.com/solid-principles):
