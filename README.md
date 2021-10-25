@@ -2,6 +2,12 @@
 Java implementations of popular design pattern, as explained in the Head First book     
 [GoF Design Patterns in Java's core libraries!!](https://stackoverflow.com/questions/1673841/examples-of-gof-design-patterns-in-javas-core-libraries/2707195#2707195)
 
+-- A Pattern is a solution to a problem in a context.   
+-- The context is the situation in which the pattern applies. This should be a recurring situation.
+-- The problem refers to the goal you are trying to achieve in this context, but it also refers to any constraints that occur in the context.   
+-- The solution is what you’re after: a general design that anyone can apply which resolves the goal and set of constraints.    
+
+
 
 ### Creational Design Patterns:
 1. Singleton Pattern
@@ -91,6 +97,34 @@ Java implementations of popular design pattern, as explained in the Head First b
 -- A remote proxy acts as a local representative to a remote object. A Remote Object is an object that lives in the heap of a different Java Virtual Machine (or more generally, a remote object that is running in a different address space). A Local representative is an object that you can call local methods on and have them forwarded on to the remote object.   
 -- Virtual Proxy acts as a representative for an object that may be expensive to create. It often defers the creation of the object until it is needed, it also acts as a surrogate for the object before and while it is being created. After that, the proxy delegates requests directly to the RealSubject.  
 
+### Bridge Pattern:    
+-- Use the Bridge Pattern to vary not only your implementations, but also your abstractions.
+
+### Builder Pattern: 
+-- Use the Builder Pattern to encapsulate the construction of a product and allow it to be constructed in steps.    
+
+### Chain of Responsibility Pattern:    
+-- Use the Chain of Responsibility Pattern when you want to give more than one object a chance to handle a request. 
+
+### Flyweight Pattern:  
+-- Use the Flyweight Pattern when one instance of a class can be used to provide many “virtual instances.”  
+
+### Interpreter Pattern:    
+-- Use the Interpreter Pattern to build an interpreter for a language.  
+
+### Mediator Pattern:   
+-- Use the Mediator Pattern to centralize complex communications and control between related objects.   
+
+### Memento Pattern:    
+-- Use the Memento Pattern when you need to be able to return an object to one of its previous states; for instance, if your user requests an “undo.”   
+
+### Prototype Pattern:  
+-- Use the Prototype Pattern when creating an instance of a given class is either expensive or complicated. 
+
+### Visitor Pattern:        
+-- Use the Visitor Pattern when you want to add capabilities to a composite of objects and encapsulation is not important.  
+
+
 ### Compound Patterns:  
 -- A compound pattern combines two or more patterns into a solution that solves a recurring or general problem. 
 
@@ -133,6 +167,24 @@ For all classes C, and for all methods M attached to C, all objects to which M s
 4. Strive for loosely coupled designs between objects that interact.
     
     
+## Thinking in Patterns:    
+- Keep it simple (KISS)
+- Design Patterns aren’t a magic bullet; in fact, they’re not even a bullet!    
+- You know you need a pattern when...   
+- Refactoring time is Patterns time!    
+- Take out what you don’t really need. Don’t be afraid to remove a Design Pattern from your design.     
+- If you don’t need it now, don’t do it now.    
+
+## Your Mind in Patterns:   
+- **The Beginner** uses patterns everywhere.    
+- As learning progresses, **the Intermediate** mind starts to see where patterns are needed and where they aren’t.  
+- **The Zen** mind is able to see patterns where they fit naturally.    
+
+## Anti-Pattern:  
+- An anti-pattern tells you why a bad solution is attractive.
+- An anti-pattern tells you why that solution in the long term is bad.
+- An anti-pattern suggests other patterns that are applicable which may provide good solutions. 
+
 ##  Used at Work?
 Template Method Pattern --- AbstractDataSourceN6Feed in yc-feedhandler implementation  
 
