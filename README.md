@@ -165,7 +165,9 @@ For all classes C, and for all methods M attached to C, all objects to which M s
 2. Favour composition over inheritance.
 3. Program to an interface, not an implementation.
 4. Strive for loosely coupled designs between objects that interact.
-    
+5. A cohesive class does one thing very well and doesn't try to do or be something else.         
+6. The software must do what its customers wants it to do. Apply basic OO principles to add flexibility. Strive for a maintainable reusable design.     
+7. Don't Repeat Yourself (DRY): Avoid duplicate code by abstracting out things that are common andplacing those things in a single location.    
     
 ## Thinking in Patterns:    
 - Keep it simple (KISS)
@@ -193,3 +195,8 @@ Template Method Pattern --- AbstractDataSourceN6Feed in yc-feedhandler implement
     - The Dependency Inversion Principle teaches us to avoid the use of concrete classes and instead work as much as possible with abstractions. The Hollywood Principle is a technique for building frameworks or components so that lower-level components can be hooked into the computation, but without creating dependencies between the lower-level components and the higher-level layers. So, they both have the goal of decoupling, but the Dependency Inversion Principle makes a much stronger and general statement about how to avoid dependencies in design.
     - The Hollywood Principle gives us a technique for creating designs that allow low-level structures to interoperate while preventing other classes from becoming too dependent on them.  
 
+## Important OOAD:  
+- **IS-A vs HAS-A:** 
+    - IS-A refers to inheritance whereas HAS-A refers to composition or aggregation.
+    - IS-A breaks in certain situations(Square IS-A Rectangle), so use inheritance when one object behaves like another, rather just when the IS-A relationship applies.    
+     
