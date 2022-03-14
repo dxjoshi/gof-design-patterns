@@ -101,6 +101,7 @@ Java implementations of popular design pattern, as explained in the Head First b
 -- Use the Bridge Pattern to vary not only your implementations, but also your abstractions.
 
 ### Builder Pattern: 
+[Josh Block's Builder Pattern](https://blogs.oracle.com/javamagazine/post/exploring-joshua-blochs-builder-design-pattern-in-java)       
 -- Use the Builder Pattern to encapsulate the construction of a product and allow it to be constructed in steps.    
 
 ### Chain of Responsibility Pattern:    
