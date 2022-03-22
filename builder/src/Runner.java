@@ -13,5 +13,7 @@ public class Runner {
                                 + "off Ahab's leg at the knee."
                 )
                 .build();
+
+        System.out.println(book);
     }
 }

@@ -1,4 +1,3 @@
-package PACKAGE_NAME;
+public class OAuthTokenProvider implements AuthenticationProvider {
 
-public class OAuthTokenProvider {
 }

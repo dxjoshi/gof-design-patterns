@@ -1,4 +1,2 @@
-package PACKAGE_NAME;
-
-public class SamlTokenProvider {
+public class SamlTokenProvider implements AuthenticationProvider {
 }

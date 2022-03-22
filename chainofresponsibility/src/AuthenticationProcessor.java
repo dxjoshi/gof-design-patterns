@@ -1,4 +1,12 @@
-package PACKAGE_NAME;
+public abstract class AuthenticationProcessor {
 
-public class AuthenticationProcessor {
+    public AuthenticationProcessor nextProcessor;
+
+    public AuthenticationProcessor(AuthenticationProcessor nextProcessor) {
+        this.nextProcessor = nextProcessor;
+    }
+
+    // standard constructors
+
+    public abstract boolean isAuthorized(AuthenticationProvider authProvider);
 }

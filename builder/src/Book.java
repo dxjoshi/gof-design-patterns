@@ -81,4 +81,16 @@ public class Book {
 
     }
 
+    @Override
+    public String toString() {
+        final StringBuilder sb = new StringBuilder("Book{");
+        sb.append("isbn='").append(isbn).append('\'');
+        sb.append(", title='").append(title).append('\'');
+        sb.append(", genre='").append(genre).append('\'');
+        sb.append(", author='").append(author).append('\'');
+        sb.append(", published=").append(published);
+        sb.append(", description='").append(description).append('\'');
+        sb.append('}');
+        return sb.toString();
+    }
 }

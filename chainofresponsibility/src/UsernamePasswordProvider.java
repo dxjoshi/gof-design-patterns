@@ -1,4 +1,2 @@
-package PACKAGE_NAME;
-
-public class UsernamePasswordProvider {
+public class UsernamePasswordProvider implements AuthenticationProvider {
 }
